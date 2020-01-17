@@ -10,11 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var pickerView: UIPickerView!
+    @IBOutlet weak var spinButton: UIButton!
+    
+    struct slot
+    {
+        var image: UIImage!
+    }
+    
+    //var images = [slot]
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func spinMe(_ sender: UIButton)
+    {
+        
+    }
+    
 }
 
